@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.upper {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+/* Navigation */
+
+nav {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  position: sticky;
+  top: 0;
+  margin-bottom: 32px;
+  background: white;
+  padding: 10px;
+  z-index: 50;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bar_icon {
+  font-size: 32px;
+}
+
+.hero {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero_image {
+    height: 300px;
+    width: 350px;
+    margin-top: 50px;
+}
+.hero_image img {
+    border-radius: 50px;
+}
+.tag {
+  background-color: #149f39;
+  padding: 5px 10px;
+  color: white;
+  align-self: flex-start;
+}
+
+.hero_content h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.explore_btn {
+  background: #ffc066;
+  align-self: flex-start;
+}
+
+/* Features Section */
+.features {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+.feature img {
+  width: 72px;
+}
+.feature:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+.image_food:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 10px 10px 10px rgba(7, 7, 7, 0.05);
+}
+.divider {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+.lower {
+  background-image: url("images/backimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 72px;
+ padding-top: 50px;
+  font-weight: 300;
+}
+.content h2 {
+  padding-top: 40px;
+  color: white;
+}
+.image_container {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+.image_container h3 {
+  padding-bottom: 20px;
+}
+.image_food img {
+  height: 200px;
+  width: 220px;
+ border-radius: 50%;
+ margin: 20px 10px;
+}
+.image_food {
+  border-radius: 10%;
+  background-color: white;
+}
+footer {
+  width: auto;
+  height: 100px;
+  background-color: gray;
+  text-align: center;
+ font-weight: 600;
+ font-size: 18px;
+}
+.contact {
+  padding-top: 10px;
+}
+.burger {
+  background-image: url("images/table1.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+}
+.fast_food {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.food_fast1 {
+  margin-top: 165px;
+  margin-left: auto;
+  width: 250px;
+  height: auto;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  
+}
+.food_fast2 {
+  margin-top: 75px;
+  margin-left: 43px;
+  margin-right: 45px;
+
+}
+.food_fast3 {
+  margin-top: 75px;
+  
+  margin-right: auto;
+  width: 250px;
+  height: auto;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+.food_fast3 p {
+  margin-left: 20px;
+}
+.food_fast1 img {
+  height: 350px;
+  width: 250px;
+}
+.food_fast2 img {
+  height: 600px;
+  width: 450px;
+}
+.food_fast3 img {
+  height: 350px;
+  width: 250px;
+}
+.fast_food p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
